@@ -1,0 +1,260 @@
+.main_body{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.recent_search_container{
+    display: grid;
+    gap: 20px;
+}
+.location_details_flexed{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ctx{
+    font-size: 24px;
+    padding: 20;
+    border: solid 1px #ccc ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ctx_top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.ctx_bottom{
+    display: flex;
+    justify-content: center;
+    size: 20px;
+}
+.ctx_top img{
+    width: 117.35px;
+    height: 24px;
+}
+.ctx_top h2{
+    font-size: 24px;
+    color: #1262ae;
+}
+.ctx_bottom p{
+    font-size: 20px;
+}
+
+.trip_icons{
+    display: grid;
+    place-items: center;
+    gap: 8px;
+}
+.trip_icons_wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-content: center;
+    height: 200px;
+    justify-content: space-around;
+} 
+.Hotel img,
+.Attractions img,
+.Eats img,
+.Commute img,
+.Taxi img,
+.Movies img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.Hotel img{
+    background-color: #F9668D;
+}
+.Attractions img{
+    background-color: #FF9B53;
+}
+.Eats img{
+    background-color: #36DA76;
+}
+.Commute img{
+    background-color: #FDBF00;
+}
+.Taxi img{
+    background-color: #4DABFF;
+}
+.Movies img{
+    background-color:#79CA00;
+}
+.popular-destinations{
+    margin: 50px;
+}
+
+.view-arrow {
+    display: flex;
+    justify-content: right;
+    color: 1262AE;
+}
+
+.Paris {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url("/images/ParisImage.png");
+    background-repeat: no-repeat;
+}   
+
+.Greece {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url("/images/GreeceImage.png");
+    background-repeat: no-repeat;
+}   
+
+.Norway {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url("/images/NorwayImage.png");
+    background-repeat: no-repeat;
+}   
+
+.Tucany {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url("/images/TuscanyImage.png");
+    background-repeat: no-repeat;
+}   
+
+.destinations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.Paris, .Greece, .Norway, .Tucany h3{
+    color: white;
+}
+.destinations .Paris{
+    padding: 10px;
+}
+.from{
+    position: relative;
+    left: 230px;
+    color: white;
+    top: 0px;
+}
+
+.balitext{
+    align-content: space-between;
+}
+.price{
+    position: relative;
+    left: 230px;
+    color: white;
+    font-weight: bolder;
+}
+.price1{
+    color: #1262AF;
+    position: relative;
+    left: 230px;
+}
+
+h6{
+    color: #999999;
+}
+h3{
+    color: #424242;
+}
+
+.Bali, .Swiss, .Boracay, .Palawan .price{
+    width: fit-content;
+    position: relative;
+    top: -35px;
+}
+.Bali {
+   
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+}   
+
+.Bali img{
+    height: 150px;
+    width: 288px;
+}
+
+.Swiss img{
+    height: 150px;
+    width: 288px;
+}
+.Boracay img{
+    height: 150px;
+    width: 288px;
+}
+.Palawan img{
+    height: 150px;
+    width: 288px;
+}
+.Swiss {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+}   
+
+.Boracay {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+}   
+
+.Palawan {
+    height: 182px;
+    width: 288px;
+    left: 16px;
+    top: 0px;
+    border-radius: 10px 10px 10px 10px;
+}   
+.matter{
+    display: flex;
+    flex-direction: row;
+
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+.coloredreviews{
+    color: #1262AF;
+}
+.more-details-button{
+    width:270px;
+    height: 46px;
+    margin-top: 10px;
+
+}
+.MS{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #303030;
+}
