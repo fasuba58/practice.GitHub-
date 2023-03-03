@@ -1,0 +1,236 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,  sans-serif;
+}
+body
+{
+background-color: #202124;
+}
+img .google{
+    color: #ffffff;
+}
+.name-icon
+{
+    border-radius: 100%;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 60vh; */
+}
+section header
+ {
+position: absolute;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+color: #ffffff;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li 
+{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+section .main
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .searchBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchBox .search
+{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px ;
+    background-color: #5f6358;
+    outline: none;
+    font-size: 16px;
+}
+.search{
+    background-color: #5f6358;
+}
+section .main .searchBox .icons
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons
+{
+    margin-top: 20px;
+
+}
+section .main .buttons button
+{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent white;
+    outline: none;
+    background-color: #202124;
+}
+section .main .buttons button:hover
+{
+    border: 1px solid #ccc;
+}
+section .main .languages
+{
+    display: flex;
+    margin-top: 30px;
+}
+section .main .languages li
+{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+section .main .languages li a
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+section .main .languages li a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+section .footer
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background: #171717;
+}
+section .footer .row
+{
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+section .footer .row.row2
+{
+    display: flex;
+    justify-content: space-between;
+}
+section .footer .row.row2 ul
+{
+    display: flex;
+}
+section .footer .row.row2 ul li
+{
+list-style: none;
+}
+section .footer .row.row2 ul li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+.icon2
+{
+    display: flex;
+    gap: 20px;
+}
+section .footer .row.row2 ul:nth-child(3) li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6358;
+    margin-right: 0px;
+    margin-left: 25px;
+}
+.footer
+{
+    background-color: #171717;
+    
+}
+.container{
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    background-color: #202124;
+    row-gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.T1,  .T2, .T3, .T4, .T5, .T6, .T7, .T{
+    color: white;
+    border-bottom:1px solid #ffffff;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: #202124;
+    gap: 10px;
+;
+}
+.T1, .T2, .T3, .T4, .T5, .T6, .T7{
+    display: flex;
+    
+}
+.T1text .T2text, .T3text, .T4text, .T5text, .T6text, .T7text{
+    margin-left: 10px;
+}
+.ts{
+    color: white;
+}
+.dots{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    color: white;
+    border: 5px 5px 5px 5px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    fill: white;
+}
+.trend-image{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+@media screen and (min-width:50%)  {
+    .container{display:none;}
+}

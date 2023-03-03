@@ -1,0 +1,104 @@
+
+body{
+    background-color: #202124;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.create{
+    width: 20px;
+    height: 20px;
+    color: white;
+    gap: 5px;
+}
+li{
+    list-style: none;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.name-icon{
+    border-radius: 100%;
+}
+.menu, bars{
+    width: 30px;
+    height: 30px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.all{
+    text-decoration: none;
+}
+.main{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.main .searchBox .search
+{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px ;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    background-color: #202124;
+}
+.main .searchBox .icons
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+.icon2
+{
+    display: flex;
+    gap: 20px;
+}
+.main .languages
+{
+    display: flex;
+    margin-top: 30px;
+}
+.main .languages li
+{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+.main .languages li a
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+.main .languages li a:hover
+{
+    text-decoration: underline;}
+.trendicon{
+    width: 26px;
+    height: 25px;
+}    
+.trends{
+    display: flex;
+}

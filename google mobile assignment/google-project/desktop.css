@@ -1,0 +1,21 @@
+
+
+header{
+    display: flex;
+    gap: 30px;
+    margin-top: 0px;
+    margin-left: 1100px;
+    
+}
+.bars-icon{
+    border-radius: 50%;
+}
+.Gmail, .Image{
+    color: #202124;
+}
+.google-icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
